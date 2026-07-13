@@ -1,27 +1,50 @@
 @import url('https://googleapis.com');
 
 .main-header {
-justify-content: space-around;
-display: flex;
-background-color: #1F2937;
-font-family: 'Roboto', sans-serif;
+    justify-content: space-around;
+    display: flex;
+    background-color: #1F2937;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header-logo {
-font-size: 24px;
-font-weight: bold;
-color: #F9FAF8
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8
 }
 
 .header-links li {
-list-style-type: none;
-display: inline;
+    list-style-type: none;
+    display: inline;
 }
 
 .header-links a {
-padding: 9px;
+    padding: 9px;
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+}
 
-color: #E5E7EB;
-font-size: 18px;
-text-decoration: none;
+.hero {
+    display: flex;
+    margin-top: 0px;
+    background-color: #1F2937;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.button {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-radius: 30px;
 }
