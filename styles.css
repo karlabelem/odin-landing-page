@@ -1,10 +1,15 @@
 @import url(https://fonts.googleapis.com/css2?family=Roboto);
 
+/* header content */ 
+
+* {
+    font-family: 'Roboto', sans-serif;;
+}
+
 .main-header {
     display: flex;
     justify-content: space-around;
     background-color: #1F2937;
-    font-family: 'Roboto', sans-serif;
 }
 
 .header-logo {
@@ -37,7 +42,6 @@
     gap: 200px;
     margin-top: 0px;
     background-color: #1F2937;
-    font-family: 'Roboto', sans-serif;
     padding: 0 100px;
 }
 
@@ -78,4 +82,21 @@
 .hero-secondary-text p {
     margin: 0;
     padding-bottom: 10px;
+}
+
+
+/* information section */ 
+
+.information-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bold;
+}
+
+.border-design {
+    border-radius: 15px;
+    border: 3px solid #3882F6;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
 }
