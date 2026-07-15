@@ -1,9 +1,6 @@
 # Landing Page — CSS Practice
 
-A responsive landing page built as part of [The Odin Project](https://www.theodinproject.com/lessons/foundations-landing-page) curriculum, focused on practicing core CSS layout principles — particularly Flexbox.
-
-## 🔗 Project Brief
-[The Odin Project — Foundations: Landing Page](https://www.theodinproject.com/lessons/foundations-landing-page)
+A responsive landing page built as part of Oding Project curriculum, focused on practicing core CSS layout principles — particularly Flexbox.
 
 ## 🎯 Goals
 This project was built to practice:
