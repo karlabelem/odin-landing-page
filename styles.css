@@ -162,6 +162,8 @@
     flex-direction: row;
     justify-content: center;
     color: white;
+    margin-bottom: 100px;
+    margin-top: 40px;
 }
 
 .action-card {
@@ -208,3 +210,18 @@
 }
 
 /* footer section */
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #1F2937;
+    padding-bottom: 30px;
+}
+
+.footer-text {
+    display: flex;
+    color:white;
+    font-size: 15px;
+    padding-top: 30px;
+}
